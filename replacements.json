@@ -1,10 +1,10 @@
 {
-  "v": "vollstÃ¤ndig",
-  "Ã¼": "Ã¼berwiegend",
-  "GKv": "GK vollstÃ¤ndig",
-  "GKÃ¼": "GK Ã¼berwiegend",
-  "EKv": "EK vollstÃ¤ndig",
-  "EKÃ¼": "EK Ã¼berwiegend",
+  "v": "vollständig",
+  "ü": "überwiegend",
+  "GKv": "GK vollständig",
+  "GKü": "GK überwiegend",
+  "EKv": "EK vollständig",
+  "EKü": "EK überwiegend",
   "pos": "Positiv",
   "neg": "Negativ"
 }

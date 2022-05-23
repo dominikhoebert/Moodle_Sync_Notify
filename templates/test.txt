@@ -1,11 +1,11 @@
-Liebe/r <SchÃ¼ler> aus der <Klasse>,
-
-Deine Bewertung in GEK312 ist <GEK311 Wiederholung der Grundlagen>
-Deine Note ist <Notenvorschlag>
-
-Mit freundlichen GrÃ¼ÃŸen,
-HÃ–BERT Dominik, MSc
-
-TGM
-Abteilung fÃ¼r Informationstechnologie
-Fachbereichsleitung Systemtechnik
+Liebe/r <Schüler> aus der <Klasse>,<p>
+<p>
+Deine Bewertung in GEK312 ist <b><GEK311 Wiederholung der Grundlagen></b><p>
+Deine Note ist <Notenvorschlag><p>
+<p>
+Mit freundlichen Grüßen,<p>
+HÖBERT Dominik, MSc<p>
+<p>
+TGM<p>
+Abteilung für Informationstechnologie<p>
+Fachbereichsleitung Systemtechnik<p>

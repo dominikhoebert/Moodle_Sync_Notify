@@ -1,14 +1,9 @@
 import os
 import json
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
 
 import pandas as pd
 import openpyxl
-import exchangelib
+from exchangelib import DELEGATE, Account, Credentials, Message, HTMLBody
 
 from dataclasses import dataclass
 
@@ -24,10 +19,17 @@ def main():
     import warnings
     warnings.simplefilter("ignore")
 
-    filename = "data/20220512_Noten.xlsx"
+    filename = "data/20220517_Noten_SYT Grundkompetenztestung.xlsx"
     templates_folder = "templates"
     subject = "test"
     email_column = "Email"
+
+    with open("data/credentials.json", "r") as j:
+        credentials = json.load(j)
+
+    sender_email = credentials["email"]
+    password = credentials["password"]
+
     file = openpyxl.load_workbook(filename, data_only=True)
 
     with open("replacements.json", "r") as j:
@@ -81,27 +83,26 @@ def main():
 
     print(emails)
 
-    with open("data/credentials.json", "r") as j:
-        credentials = json.load(j)
+    if input(f"\n\nSend {len(emails)} emails? (y/n)") == "y":
+        credentials = Credentials(username=sender_email, password=password)
+        exchange_account = Account(
+            primary_smtp_address=sender_email, credentials=credentials,
+            autodiscover=True, access_type=DELEGATE
+        )
 
-    sender_email = credentials["email"]
-    password = credentials["password"]
+        message_ids = []
+        for email in emails:
+            message = Message(
+                account=exchange_account,
+                folder=exchange_account.drafts,
+                subject=email.subject,
+                body=HTMLBody(email.message),
+                to_recipients=[email.adress]
+            ).save()
+            message_ids.append((message.id, message.changekey))
 
-    for email in emails:
-        message = MIMEMultipart()
-        message['From'] = sender_email
-        message['To'] = email.adress
-        message['Subject'] = email.subject
-        message.attach(MIMEText(email.message, 'plain'))
-
-        s = smtplib.SMTP('smtp.gmail.com', 587)
-        s.starttls()
-        s.login(sender_email, password)
-        text = message.as_string()
-        s.sendmail(sender_email, email.adress, text)
-        s.quit()
-
-        print('Mail Sent')
+        result = exchange_account.bulk_send(ids=message_ids)
+        print(f"\n\n{result.count(True)} emails sent sucessfully.\n{result.count(False)} emails failed.")
 
 
 if __name__ == "__main__":
