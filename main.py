@@ -1,8 +1,14 @@
 import os
 import json
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email import encoders
 
 import pandas as pd
 import openpyxl
+import exchangelib
 
 from dataclasses import dataclass
 
@@ -63,7 +69,6 @@ def main():
     with open(f"{templates_folder}/{templates[choice]}", "r") as f:
         template = f.read()
 
-
     emails = []
     for i, row in df.iterrows():
         message = template
@@ -75,6 +80,28 @@ def main():
         emails.append(Email(row[email_column], subject, message))
 
     print(emails)
+
+    with open("data/credentials.json", "r") as j:
+        credentials = json.load(j)
+
+    sender_email = credentials["email"]
+    password = credentials["password"]
+
+    for email in emails:
+        message = MIMEMultipart()
+        message['From'] = sender_email
+        message['To'] = email.adress
+        message['Subject'] = email.subject
+        message.attach(MIMEText(email.message, 'plain'))
+
+        s = smtplib.SMTP('smtp.gmail.com', 587)
+        s.starttls()
+        s.login(sender_email, password)
+        text = message.as_string()
+        s.sendmail(sender_email, email.adress, text)
+        s.quit()
+
+        print('Mail Sent')
 
 
 if __name__ == "__main__":
