@@ -19,10 +19,12 @@ def main():
     import warnings
     warnings.simplefilter("ignore")
 
-    filename = "data/20220517_Noten_SYT Grundkompetenztestung.xlsx"
+    filename = "data/20220528_Noten.xlsx"
     templates_folder = "templates"
-    subject = "test"
+    subject = "SYT Wintersemester Ausbesserung"
     email_column = "Email"
+
+    filter = ""
 
     with open("data/credentials.json", "r") as j:
         credentials = json.load(j)
@@ -72,6 +74,9 @@ def main():
         template = f.read()
 
     emails = []
+
+    df = df[df["Negative Kompetenzen3"].notnull()]
+
     for i, row in df.iterrows():
         message = template
         for column in columns:
