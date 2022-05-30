@@ -2,4 +2,6 @@
 
 ## ToDo
 * Send email only to students where filter applies
-* Preview first 3 mails
+* markdown templates
+* detect .md
+* ~~Preview first 3 mails~~

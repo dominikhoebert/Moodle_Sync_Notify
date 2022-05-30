@@ -4,6 +4,7 @@ import json
 import pandas as pd
 import openpyxl
 from exchangelib import DELEGATE, Account, Credentials, Message, HTMLBody
+import markdown
 
 from dataclasses import dataclass
 
@@ -77,7 +78,7 @@ def main():
     emails = []
 
     # df = df[df["Negative Kompetenzen3"].notnull()]
-    #df = df[df["Schüler"] == "D1"]
+    df = df[df["Schüler"] == "D1"]
 
     for i, row in df.iterrows():
         message = template
@@ -88,7 +89,11 @@ def main():
             message = message.replace(f"[{column}]", part)
         emails.append(Email(row[email_column], subject, message))
 
-    print(emails)
+    r = 3
+    if len(emails) < 3:
+        r = len(emails)
+    for i in range(r):
+        print(emails[i].adress, "\n", emails[i].subject, "\n", emails[i].message)
 
     if input(f"\n\nSend {len(emails)} emails? (y/n)") == "y":
         credentials = Credentials(username=sender_email, password=password)
@@ -103,7 +108,7 @@ def main():
                 account=exchange_account,
                 folder=exchange_account.drafts,
                 subject=email.subject,
-                body=HTMLBody(email.message),
+                body=HTMLBody(markdown.markdown(email.message)),
                 to_recipients=[email.adress]
             ).save()
             message_ids.append((message.id, message.changekey))
