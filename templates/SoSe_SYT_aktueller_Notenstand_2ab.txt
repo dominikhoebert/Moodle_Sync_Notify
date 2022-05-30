@@ -1,0 +1,105 @@
+<p>
+    <a name="OLE_LINK1"></a>
+    <a name="OLE_LINK2"></a>
+    <a name="OLE_LINK3"></a>
+    <a name="OLE_LINK4"></a>
+    <a name="OLE_LINK5">Liebe/r [Schüler],</a>
+</p>
+<p>
+Hier ist dein aktueller Stand deiner Bewertungen im Fach Systemtechnik:    <a name="OLE_LINK6"></a><a name="OLE_LINK7"></a>
+</p>
+<ul>
+    <li>
+        GEK411 Analoge Signale - Sinus, Dreieck, Rechteck und Sägezahn [GEK411
+        Analoge Signale - Sinus, Dreieck, Rechteck und Sägezahn]
+    </li>
+</ul>
+<p>
+    <a name="OLE_LINK8"></a>
+    <a name="OLE_LINK9">
+        · GEK412 Analoge Signale - Kapazität und Induktivität [GEK412 Analoge
+        Signale - Kapazität und Induktivität]
+    </a>
+</p>
+<ul>
+    <li>
+        GEK413 Analoge Signale - Signale weiterleiten und nutzen [GEK413
+        Analoge Signale - Signale weiterleiten und nutzen]
+    </li>
+    <li>
+        GEK421 Sensoren - Umgebung elektrisch erfassen [GEK421 Sensoren -
+        Umgebung elektrisch erfassen]
+    </li>
+    <li>
+        GK431 Betriebssysteme 1.Kapitel [GK431 Betriebssysteme 1.Kapitel]
+    </li>
+    <li>
+        GK432 Betriebssysteme 2.Kapitel [GK432 Betriebssysteme 2.Kapitel]
+    </li>
+    <li>
+        GK433 Betriebssysteme 3.Kapitel [GK433 Betriebssysteme 3.Kapitel]
+    </li>
+    <li>
+        GK434 Betriebssysteme 6.Kapitel [GK434 Betriebssysteme 6.Kapitel]
+    </li>
+    <li>
+        GK435 Betriebssysteme 7.Kapitel [GK435 Betriebssysteme 7.Kapitel]
+    </li>
+    <li>
+        GK436 Betriebssysteme 8.Kapitel [GK436 Betriebssysteme 8.Kapitel]
+    </li>
+    <li>
+        GK437 Betriebssysteme 9.Kapitel [GK437 Betriebssysteme 9.Kapitel]
+    </li>
+    <li>
+        GK441 Arbeitsblatt [GK441 Arbeitsblatt]
+    </li>
+</ul>
+<p>
+    Hier sind nur die grundlegenden Module aufgeschlüsselt.
+</p>
+<p>
+Zusätzlich hast du noch <strong>[ΣEKü]</strong> EKüberwiegend und    <strong>[ΣEKv]</strong> EKvollständig erfüllt. Damit stehst du aktuell auf
+    der Note <strong>[Notenvorschlag]</strong>
+</p>
+<p>
+    Bitte vergleiche diese Bewertungen mit denen aus dem Kurs und überprüfe, ob
+    diese so stimmen!
+</p>
+<p>
+    Beachte: Notenstand wurde am Montag 30.5.22 gegen 10 Uhr erhoben.
+    Bewertungen die nachher erfolgt sind scheinen hier nicht auf!
+</p>
+<p>
+EK Abgaben sind noch bis Notenschluss möglich. GK Abgaben nur noch bis    <strong>10.6.22 17:00</strong>. Solltest du bis dahin nicht alle GK Module
+    abgegeben haben, musst du an der Grundkompetenzüberprüfung am 15.6.22
+    teilnehmen. An dem Tag findet auch die Grundkompetenzüberprüfung zur
+    Ausbesserung des Wintersemesters statt.
+</p>
+<p>
+    Mit freundlichen Grüßen,
+</p>
+<p>
+    Dominik Höbert
+</p>
+<p>
+    ________________________________
+</p>
+<p>
+    Dominik Höbert, MSc
+</p>
+<p>
+    Fachbereichsleitung Systemtechnik
+</p>
+<p>
+    Höhere Abteilung für Informationstechnologie
+</p>
+<p>
+    Technologisches Gewerbemuseum
+</p>
+<p>
+    HTBLVA Wien 1220, Wexstrasse 19-23
+</p>
+<p>
+    <a href="mailto:dhoebert@tgm.ac.at">email: dhoebert@tgm.ac.at</a>
+</p>

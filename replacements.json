@@ -6,5 +6,6 @@
   "EKv": "EK vollständig",
   "EKü": "EK überwiegend",
   "pos": "Positiv",
-  "neg": "Negativ"
+  "neg": "Negativ",
+  "-": "keine Abgabe oder Bewertung"
 }

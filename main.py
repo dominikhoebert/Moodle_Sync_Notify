@@ -7,6 +7,7 @@ from exchangelib import DELEGATE, Account, Credentials, Message, HTMLBody
 
 from dataclasses import dataclass
 
+# https://word2cleanhtml.com/cleanit#
 
 @dataclass
 class Email:
@@ -19,9 +20,9 @@ def main():
     import warnings
     warnings.simplefilter("ignore")
 
-    filename = "data/20220528_Noten.xlsx"
+    filename = "/Users/dominik/Dropbox/TGM/Systemtechnik SYT/Schuljahr 21_22/20220530_Noten_SoSe.xlsx"
     templates_folder = "templates"
-    subject = "SYT Wintersemester Ausbesserung"
+    subject = "[SYT] Aktueller Notenstand"
     email_column = "Email"
 
     filter = ""
@@ -34,7 +35,7 @@ def main():
 
     file = openpyxl.load_workbook(filename, data_only=True)
 
-    with open("replacements.json", "r") as j:
+    with open("replacements.json", "r", encoding="ISO-8859-1") as j:
         replacements = json.load(j)
 
     for i, sheet in enumerate(file.sheetnames):
@@ -75,7 +76,8 @@ def main():
 
     emails = []
 
-    df = df[df["Negative Kompetenzen3"].notnull()]
+    # df = df[df["Negative Kompetenzen3"].notnull()]
+    #df = df[df["Schüler"] == "D1"]
 
     for i, row in df.iterrows():
         message = template
@@ -83,7 +85,7 @@ def main():
             part = str(row[column])
             if part in replacements:
                 part = replacements[part]
-            message = message.replace(f"<{column}>", part)
+            message = message.replace(f"[{column}]", part)
         emails.append(Email(row[email_column], subject, message))
 
     print(emails)

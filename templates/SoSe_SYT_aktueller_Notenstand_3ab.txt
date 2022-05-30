@@ -1,0 +1,152 @@
+<p>
+    <a name="OLE_LINK1"></a>
+    <a name="OLE_LINK2"></a>
+    <a name="OLE_LINK3"></a>
+    <a name="OLE_LINK4"></a>
+    <a name="OLE_LINK5"></a>
+    <a name="OLE_LINK10"></a>
+    <a name="OLE_LINK15"></a>
+    <a name="OLE_LINK16"></a>
+    <a name="OLE_LINK19"></a>
+    <a name="OLE_LINK20">Liebe/r [Schüler],</a>
+</p>
+<p>
+Hier ist dein aktueller Stand deiner Bewertungen im Fach Systemtechnik:    <a name="OLE_LINK6"></a><a name="OLE_LINK7"></a>
+</p>
+<table border="1" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="445" valign="top">
+                <p>
+                    <a name="_Hlk104814784">
+                        GEK611 Analoge Signale aufnehmen und verarbeiten
+                    </a>
+                </p>
+            </td>
+            <td width="445" valign="top">
+                <p>
+                    [GEK611 Analoge Signale aufnehmen und verarbeiten]
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="445" valign="top">
+                <p>
+                    GEK612 Mindeststandards bei Messverfahren einhalten
+                </p>
+            </td>
+            <td width="445" valign="top">
+                <p>
+                    [GEK612 Mindeststandards bei Messverfahren einhalten]
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="445" valign="top">
+                <p>
+                    GEK621 Sensoren und Aktoren gemeinsam einsetzen
+                </p>
+            </td>
+            <td width="445" valign="top">
+                <p>
+                    [GEK621 Sensoren und Aktoren gemeinsam einsetzen]
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="445" valign="top">
+                <p>
+                    GK631 Domain Controller einrichten
+                </p>
+            </td>
+            <td width="445" valign="top">
+                <p>
+                    [GK631 Domain Controller einrichten]
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="445" valign="top">
+                <p>
+                    GEK641 Linux Systemwartung
+                </p>
+            </td>
+            <td width="445" valign="top">
+                <p>
+                    [GEK641 Linux Systemwartung]
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="445" valign="top">
+                <p>
+                    GEK651 Virtualisierungsumgebung installieren und nutzen
+                </p>
+            </td>
+            <td width="445" valign="top">
+                <p>
+                    [GEK651 Virtualisierungsumgebung installieren und nutzen]
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="445" valign="top">
+                <p>
+                    GEK652 Virtualisierung öffentlich bereitstellen
+                </p>
+            </td>
+            <td width="445" valign="top">
+                <p>
+                    [GEK652 Virtualisierung öffentlich bereitstellen]
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    Hier sind nur die grundlegenden Module aufgeschlüsselt.
+</p>
+<p>
+    Damit stehst du aktuell auf der Note <strong>[Notenvorschlag]</strong>
+</p>
+<p>
+    Bitte vergleiche diese Bewertungen mit denen aus dem Kurs und überprüfe, ob
+    diese so stimmen!
+</p>
+<p>
+    Beachte: Notenstand wurde am Montag 30.5.22 gegen 10 Uhr erhoben.
+    Bewertungen die nachher erfolgt sind scheinen hier nicht auf!
+</p>
+<p>
+EK Abgaben sind noch bis Notenschluss möglich. GK Abgaben nur noch bis    <strong>10.6.22 17:00</strong>. Solltest du bis dahin nicht alle GK Module
+    abgegeben haben, musst du an der Grundkompetenzüberprüfung am 15.6.22
+    teilnehmen. An dem Tag findet auch die Grundkompetenzüberprüfung zur
+    Ausbesserung des Wintersemesters statt.
+</p>
+<p>
+    Mit freundlichen Grüßen,
+</p>
+<p>
+    Dominik Höbert
+</p>
+<p>
+    ________________________________
+</p>
+<p>
+    Dominik Höbert, MSc
+</p>
+<p>
+    Fachbereichsleitung Systemtechnik
+</p>
+<p>
+    Höhere Abteilung für Informationstechnologie
+</p>
+<p>
+    Technologisches Gewerbemuseum
+</p>
+<p>
+    HTBLVA Wien 1220, Wexstrasse 19-23
+</p>
+<p>
+    <a href="mailto:dhoebert@tgm.ac.at">email: dhoebert@tgm.ac.at</a>
+</p>
