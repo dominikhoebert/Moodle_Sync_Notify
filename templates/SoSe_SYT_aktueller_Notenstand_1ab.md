@@ -1,3 +1,4 @@
+Subject: [SYT] Aktueller Notenstand
 Liebe/r [Schüler],
 
 Hier ist dein aktueller Stand deiner Bewertungen im Fach Systemtechnik:

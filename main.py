@@ -8,25 +8,23 @@ import markdown
 
 from dataclasses import dataclass
 
-# https://word2cleanhtml.com/cleanit#
+filename = "/Users/dominik/Dropbox/TGM/Informationssysteme INSY/Schuljahr 21_22/20220602_Noten_INSY 3xHIT 2122_3A.xlsx"
+subject = "[SYT] Aktueller Notenstand"
 
-@dataclass
-class Email:
-    adress: str
-    subject: str
-    message: str
+templates_folder = "templates"
+email_column = "Email"
+
+
+def filter_df(df):
+    # df = df[df["Negative Kompetenzen3"].notnull()]
+    #df = df[df["Schüler"] == "D1"]
+    df = df[df["Klasse"] == "3AHIT"]
+    return df
 
 
 def main():
     import warnings
     warnings.simplefilter("ignore")
-
-    filename = "/Users/dominik/Dropbox/TGM/Systemtechnik SYT/Schuljahr 21_22/20220530_Noten_SoSe.xlsx"
-    templates_folder = "templates"
-    subject = "[SYT] Aktueller Notenstand"
-    email_column = "Email"
-
-    filter = ""
 
     with open("data/credentials.json", "r") as j:
         credentials = json.load(j)
@@ -77,11 +75,17 @@ def main():
 
     emails = []
 
-    # df = df[df["Negative Kompetenzen3"].notnull()]
-    df = df[df["Schüler"] == "D1"]
+    df = filter_df(df)
+
+    if template.startswith("Subject:"):
+        lines = template.splitlines()
+        subject = lines[0][8:].strip()
+        template = "\n".join(lines[1:])
 
     for i, row in df.iterrows():
         message = template
+        if templates[choice].endswith(".md"):
+            message = markdown.markdown(message)
         for column in columns:
             part = str(row[column])
             if part in replacements:
@@ -108,13 +112,20 @@ def main():
                 account=exchange_account,
                 folder=exchange_account.drafts,
                 subject=email.subject,
-                body=HTMLBody(markdown.markdown(email.message)),
+                body=HTMLBody(email.message),
                 to_recipients=[email.adress]
             ).save()
             message_ids.append((message.id, message.changekey))
 
         result = exchange_account.bulk_send(ids=message_ids)
         print(f"\n\n{result.count(True)} emails sent sucessfully.\n{result.count(False)} emails failed.")
+
+
+@dataclass
+class Email:
+    adress: str
+    subject: str
+    message: str
 
 
 if __name__ == "__main__":
