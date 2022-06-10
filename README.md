@@ -2,8 +2,8 @@
 
 ## ToDo
 * Send email only to students where filter applies
+* save emails to file
 * ~~Subject into template~~
 * ~~markdown templates~~
 * ~~detect .md~~
-* save emails to file
 * ~~Preview first 3 mails~~
