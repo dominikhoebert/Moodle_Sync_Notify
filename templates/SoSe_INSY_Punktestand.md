@@ -1,32 +1,32 @@
 Subject: [INSY] Punktestand
 
-Liebe/r [SchÃ¼ler],
+Liebe/r [Schüler],
 
-Dein aktueller INSY SMÃœ Punktestand lautet: **[Summe]**
+Dein aktueller INSY SMÜ Punktestand lautet: **[Summe]**
 
-FÃ¼r eine positive Note (4) brauchst du am Ende 36 Punkte.
+Für eine positive Note (4) brauchst du am Ende 36 Punkte.
 
-FÃ¼r die Note 3 brauchst du am Ende 45 Punkte.
+Für die Note 3 brauchst du am Ende 45 Punkte.
 
 
-Folgende MÃ¶glichkeiten um noch Punkte zu machen gibt es noch:
+Folgende Möglichkeiten um noch Punkte zu machen gibt es noch:
 
 * Wiederholung Subquerys am 9.6.22
 
 * Nachholen verpasster Wiederholungen am 9.6.22 (3. Normalform, ON UPDATE & ON DELETE, Joins)
 
-* PrÃ¼fung am 15.6.22 Ã¼ber das Thema [Column1]
+* Prüfung am 17.6.22 über das Thema [Column1]
 
 
-Mit freundlichen GrÃ¼ÃŸen,
+Mit freundlichen Grüßen,
 
-**Dominik HÃ¶bert**
+**Dominik Höbert**
 ________________________________
-Dominik HÃ¶bert, MSc
+Dominik Höbert, MSc
 
 Fachbereichsleitung Systemtechnik
 
-HÃ¶here Abteilung fÃ¼r Informationstechnologie
+Höhere Abteilung für Informationstechnologie
 
 Technologisches Gewerbemuseum
 
