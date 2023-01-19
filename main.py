@@ -8,9 +8,9 @@ import markdown
 
 from dataclasses import dataclass
 
-filename = "/Users/dominik/Dropbox/TGM/Systemtechnik SYT/Schuljahr 21_22/20220617_Noten_123ab_SoSe+Jahresnote.xlsx"
+filename = "/Users/dominik/Dropbox/TGM/Systemtechnik SYT/Schuljahr 22_23/x"
 #filename = "/Users/dominik/Dropbox/TGM/Informationssysteme INSY/Schuljahr 21_22/20220616_Noten.xlsx"
-subject = "[SYT] Aktueller Notenstand"
+#subject = "[INSY] Aktueller Notenstand"
 
 templates_folder = "templates"
 email_column = "Email"
@@ -20,7 +20,7 @@ def filter_df(df):
     #df = df[df["Negative Kompetenzen"].notnull()]
     #df = df[df["Schüler"] == "D1"]
     #df = df[df["Klasse"] == "3DHIT"]
-    df = df[df["Klasse"].notnull()]
+    #df = df[df["Klasse"].notnull()]
     return df
 
 
