@@ -1,5 +1,5 @@
 Subject: [SYT] Aktueller Notenstand
-Liebe/r [Schüler],
+Liebe/r [SchÃ¼ler],
 
 Hier ist dein aktueller Stand deiner Bewertungen im Fach Systemtechnik:
 
@@ -19,24 +19,24 @@ Hier ist dein aktueller Stand deiner Bewertungen im Fach Systemtechnik:
 | GK531                                              | **[GK531 Bewertung]** |
 | GK541                                              | **[GK541 Bewertung]** |
 
-**Anzahl Erweiterte Kompetenzen** (EKü entspricht 0,5): **[Eks]**  
+**Anzahl Erweiterte Kompetenzen** (EKÃ¼ entspricht 0,5): **[Eks]**  
 **Notenvorschlag**: **[Notenvorschlag]**
 
-Labor Übungen können noch bis einschließlich Mittwoch 25.1.23 bei der jeweiligen Lehrperson abgegeben werden.
+Labor Ãœbungen kÃ¶nnen noch bis einschlieÃŸlich Mittwoch 25.1.23 bei der jeweiligen Lehrperson abgegeben werden.
 
-An diesem Tag finden auch die restlichen Wiederholungen der Theorieüberprüfungen statt.
-
-
-Melde dich bitte so bald wie möglich bei mir, solltest du mit der Note nicht zufrieden sein, oder eine Bewertung nicht korrekt ist.
+An diesem Tag finden auch die restlichen Wiederholungen der TheorieÃ¼berprÃ¼fungen statt.
 
 
-Mit freundlichen Grüßen,
+Melde dich bitte so bald wie mÃ¶glich bei mir, solltest du mit der Note nicht zufrieden sein, oder eine Bewertung nicht korrekt ist.
 
-Dominik Höbert  
+
+Mit freundlichen GrÃ¼ÃŸen,
+
+Dominik HÃ¶bert  
 ________________________________
-Dominik Höbert, MSc  
+Dominik HÃ¶bert, MSc  
 Fachbereichsleitung Systemtechnik  
-Höhere Abteilung für Informationstechnologie  
+HÃ¶here Abteilung fÃ¼r Informationstechnologie  
 Technologisches Gewerbemuseum  
 HTBLVA Wien 1220, Wexstrasse 19-23  
 email: dhoebert@tgm.ac.at  
