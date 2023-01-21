@@ -5,11 +5,12 @@ import pandas as pd
 import openpyxl
 from exchangelib import DELEGATE, Account, Credentials, Message, HTMLBody
 import markdown
+from markdown.extensions.tables import TableExtension
 
 from dataclasses import dataclass
 
-filename = "/Users/dominik/Dropbox/TGM/Systemtechnik SYT/Schuljahr 22_23/x"
-#filename = "/Users/dominik/Dropbox/TGM/Informationssysteme INSY/Schuljahr 21_22/20220616_Noten.xlsx"
+#filename = "/Users/dominik/Dropbox/TGM/Systemtechnik SYT/Schuljahr 22_23/x"
+filename = "C:/Users/Dominik/Dropbox/TGM/Systemtechnik SYT/Schuljahr 22_23/20230120_SYT5_3xHIT_Notenstand.xlsx"
 #subject = "[INSY] Aktueller Notenstand"
 
 templates_folder = "templates"
@@ -19,7 +20,7 @@ email_column = "Email"
 def filter_df(df):
     #df = df[df["Negative Kompetenzen"].notnull()]
     #df = df[df["Schüler"] == "D1"]
-    #df = df[df["Klasse"] == "3DHIT"]
+    df = df[df["Klasse"] == "test"]
     #df = df[df["Klasse"].notnull()]
     return df
 
@@ -87,7 +88,7 @@ def main():
     for i, row in df.iterrows():
         message = template
         if templates[choice].endswith(".md"):
-            message = markdown.markdown(message)
+            message = markdown.markdown(message, extensions=[TableExtension()])
         for column in columns:
             part = str(row[column])
             if part in replacements:
