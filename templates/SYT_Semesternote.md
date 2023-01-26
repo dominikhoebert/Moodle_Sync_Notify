@@ -1,15 +1,15 @@
 Subject: [SYT] Semesternote
-Liebe/r [SchÃ¼ler],
+Liebe/r [Schüler],
 
-Hier deine Semesternote fÃ¼r Systemtechnik: **[Notenvorschlag]**.
+Hier deine Semesternote für Systemtechnik: **[Notenvorschlag]**.
 
-Mit freundlichen GrÃ¼ÃŸen,
+Mit freundlichen Grüßen,
 
-Dominik HÃ¶bert  
+Dominik Höbert  
 ________________________________  
-Dominik HÃ¶bert, MSc  
+Dominik Höbert, MSc  
 Fachbereichsleitung Systemtechnik  
-HÃ¶here Abteilung fÃ¼r Informationstechnologie  
+Höhere Abteilung für Informationstechnologie  
 Technologisches Gewerbemuseum  
-HTBLVA Wien 1220, Wexstrasse 19-23
+HTBLVA Wien 1220, Wexstrasse 19-23  
 email: dhoebert@tgm.ac.at  

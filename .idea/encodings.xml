@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/mail.htm" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/replacements.json" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/templates/SYT_Semesternote.md" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/templates/SoSe_GK-Prüfung_Benachrichtigung.md" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/templates/SoSe_SYT_aktueller_Notenstand_1ab.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/templates/SoSe_SYT_aktueller_Notenstand_2ab.txt" charset="UTF-8" />
