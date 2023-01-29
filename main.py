@@ -9,7 +9,7 @@ from markdown.extensions.tables import TableExtension
 
 from dataclasses import dataclass
 
-filename = "/Users/dominik/Dropbox/TGM/Informationssysteme INSY/Schuljahr 22_23/INSY_Noten_3abcHIT_WS2022.xlsx"
+filename = "/Users/dominik/Downloads/SYTxHIT-WiSe-2223.xlsx"
 #filename = "C:/Users/Dominik/Dropbox/TGM/Systemtechnik SYT/Schuljahr 22_23/SYTxHIT-WiSe-2223.xlsx"
 #subject = "[INSY] Aktueller Notenstand"
 
@@ -20,7 +20,7 @@ email_column = "Email"
 def filter_df(df):
     #df = df[df["Negative Kompetenzen"].notnull()]
     #df = df[df["Schüler"] == "D1"]
-    df = df[df["Klasse"] == "3BHIT"]
+    df = df[df["Klasse"] == "3DHIT"]
     #df = df[df["Klasse"].notnull()]
     return df
 
